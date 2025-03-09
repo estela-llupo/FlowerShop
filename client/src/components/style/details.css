@@ -1,0 +1,73 @@
+.details-container {
+    display: flex;
+    justify-content: center;
+    
+}
+div {
+    border-bottom: none;
+}
+.product-details {
+    border-radius: 6px;
+    width: 1000px;
+    border: 2px solid #eae9e9;
+    display: flex;
+    margin: 50px;
+    padding: 30px;
+    background-color: rgba(255, 246, 227, 0.782);
+}
+.product-details img {
+    width: 250px;
+    margin-bottom: 10px;
+    object-fit: cover;
+    margin-right: 30px;
+}
+.product-details, p {
+    color: black;
+    font-size: larger;
+    border-bottom: none;
+}
+.product-details button {
+    align-items: center;
+    background-image: radial-gradient(100% 100% at 100% 0, #ffce63 0, #e0894b 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+}
+
+.product-details button:focus {
+    box-shadow: #e09c3c 0 0 0 1.5px inset, rgba(66, 38, 35, 0.4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.product-details button:hover {
+    box-shadow: rgba(66, 55, 35, 0.4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #bc6d30 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.product-details button:active {
+    box-shadow: #e0a13c 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+

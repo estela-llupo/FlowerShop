@@ -1,29 +1,5 @@
-.nav {
-  margin-bottom: 20px;
-  padding: 10px 0;
-  border-bottom: 2px solid #ddd;
-  display: inline-block;
-  width: 525px;
-  margin-top: 40px;
-  margin-left: 405px;
-  font-size: 1.2rem;
-}
-
-.navLink {
-  text-decoration: none;
-  color: #165098;
-  font-weight: bold;
-  margin-right: 10px;
-  transition: text-decoration 0.3s ease;
-}
-
-.navLink:hover {
-  text-decoration: underline;
-  color: #3852d7
-}
-
-.separator {
-  margin: 0 10px;
-  color: #333;
-  font-weight: bold;
+body {
+  width: 100%;
+  display: block;
+  background: linear-gradient(90deg, #f1aae9 0%, rgba(243,218,236,1) 50%, #f1aae9 100%);
 }

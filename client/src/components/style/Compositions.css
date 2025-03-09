@@ -1,0 +1,12 @@
+.composition-grid {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    width: 90%;
+    max-width: 1200px;
+}
+.body-composition {
+    display: flex;
+    justify-content: center;
+}

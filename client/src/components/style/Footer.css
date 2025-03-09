@@ -1,0 +1,12 @@
+.footer {
+    background-color: #D87093; 
+    color: white;
+    padding: 20px; 
+    text-align: center; 
+    margin-top: 50px;
+}
+.contact-info  {
+    text-align: center;
+    margin-top: 10px;
+    border-bottom: none;
+}
